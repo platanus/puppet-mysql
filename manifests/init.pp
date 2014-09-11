@@ -56,7 +56,7 @@ class mysql {
   exec { 'init-mysql-db':
     command  => "mysql_install_db \
       --verbose \
-      --basedir=${boxen::config::homebrewdir} \
+      --basedir=${boxen::config::homebrewdir}/opt/mysql \
       --datadir=${mysql::config::datadir} \
       --tmpdir=/tmp",
     creates  => "${mysql::config::datadir}/mysql",
