@@ -1,6 +1,7 @@
 class Mysql < Formula
   homepage "https://dev.mysql.com/doc/refman/5.6/en/"
   url "https://cdn.mysql.com/Downloads/MySQL-5.6/mysql-5.6.23.tar.gz"
+  mirror "https://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.23.tar.gz"
   sha1 "2d610ba01ab97df042d5946ba0da411da5547c5d"
 
   # Fixes compilation with OpenSSL 1.0.2
